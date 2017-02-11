@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-header></v-header>
+    <v-header :seller="seller"></v-header>
     <div class="tap border-1px">
       <div class="tab-item">
         <router-link to="/goods">商品</router-link>
@@ -19,7 +19,23 @@
 <script>
   import header from './components/header/header.vue';
 
+  const ERR_OK = 0;
   export default {
+      data() {
+        return {
+            seller: {}
+        };
+      },
+      created() {
+        this.$http.get('/api/seller').then((response) => {
+          response = response.body;
+          if (response.erron === ERR_OK) {
+              this.seller = response.data;
+              console.log(this.seller);
+          }
+        });
+      },
+
       components: {
         'v-header': header
       }
@@ -28,12 +44,12 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "./common/stylus/mixin.styl";
+
   .tap
     display: flex
     width: 100%
     height: 40px;
     line-height:40px;
-   // border-bottom: 1px solid rgba(1,17,27,0.1)
     border-1px(rgba(1,17,27,0.1))
     .tab-item
       flex:1
