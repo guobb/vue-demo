@@ -36,12 +36,13 @@
         </li>
       </ul>
     </div>
+    <shopcart :deliveryPrice="seller.deliveryPrice" :minPrice="seller.minPrice"></shopcart>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll';
-
+  import shopcart from 'components/shopcart/shopcart';
   const ERR_OK = 0;
   export default {
       props: {
@@ -113,6 +114,9 @@
             }
         }
 
+      },
+      components: {
+          shopcart
       }
   };
 </script>
