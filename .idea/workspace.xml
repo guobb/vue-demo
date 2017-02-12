@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67aa038-106a-4a79-b755-74cb4c576e4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/decrease_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/decrease_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/discount_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/discount_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/guarantee_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/guarantee_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/invoice_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/invoice_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/special_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sell/src/components/goods/special_3@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell/src/App.vue" afterPath="$PROJECT_DIR$/sell/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell/src/common/stylus/mixin.styl" afterPath="$PROJECT_DIR$/sell/src/common/stylus/mixin.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell/src/components/goods/goods.vue" afterPath="$PROJECT_DIR$/sell/src/components/goods/goods.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,11 +37,22 @@
       <file leaf-file-name="goods.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sell/src/components/goods/goods.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            <state relative-caret-position="196">
+              <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding>
-                <element signature="e#1416#1894#0" expanded="false" />
+                <element signature="e#2349#2827#0" expanded="false" />
+                <element signature="e#2852#2992#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixin.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sell/src/common/stylus/mixin.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +73,8 @@
       <file leaf-file-name="header.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sell/src/components/header/header.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
@@ -124,11 +124,11 @@
         <option value="$PROJECT_DIR$/sell/package.json" />
         <option value="$PROJECT_DIR$/sell/.eslintrc.js" />
         <option value="$PROJECT_DIR$/sell/src/main.js" />
-        <option value="$PROJECT_DIR$/sell/src/common/stylus/mixin.styl" />
         <option value="$PROJECT_DIR$/sell/src/common/stylus/base.styl" />
         <option value="$PROJECT_DIR$/sell/src/components/star/star.vue" />
         <option value="$PROJECT_DIR$/sell/src/components/header/header.vue" />
         <option value="$PROJECT_DIR$/sell/src/App.vue" />
+        <option value="$PROJECT_DIR$/sell/src/common/stylus/mixin.styl" />
         <option value="$PROJECT_DIR$/sell/src/components/goods/goods.vue" />
       </list>
     </option>
@@ -469,12 +469,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486027997138</updated>
       <workItem from="1486028000204" duration="19302000" />
-      <workItem from="1486605159652" duration="33646000" />
+      <workItem from="1486605159652" duration="36930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52948000" />
+    <option name="totallyTimeSpent" value="56232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="49" width="914" height="681" extended-state="0" />
@@ -486,7 +486,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972005" sideWeight="0.50886077" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -669,17 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sell/src/common/stylus/mixin.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1486650352000" expanded="true" signature="21:186" ph="{...}" />
-            <marker date="1486650352000" expanded="true" signature="55:185" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sell/src/common/stylus/index.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -712,6 +701,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sell/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sell/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3345">
@@ -723,10 +720,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sell/src/common/stylus/mixin.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sell/src/components/header/header.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
@@ -738,20 +743,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sell/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sell/src/components/goods/goods.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="196">
+          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
-            <element signature="e#1416#1894#0" expanded="false" />
+            <element signature="e#2349#2827#0" expanded="false" />
+            <element signature="e#2852#2992#0" expanded="false" />
           </folding>
         </state>
       </provider>
